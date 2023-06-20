@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://th.bing.com/th/id/R.f8906d3610310211b73c1688c2ae164f?rik=0luTbQurYmWFGw&riu=http%3a%2f%2fipcom-technology.net%2fwp-content%2fuploads%2f2020%2f10%2fCentos-logo-1.png&ehk=VhQXMPZ7vWlJZ6buywGvJ7kAgmUfcNVDu5IFNduaGBg%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 370px 0px 0px 0px;
+}
+.versionmac {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.macversion {
+    flex: 0 0 calc(33.33% - 40px);
+    height: 300px;
+    margin: 0 19px 80px;
+    border: 1px solid #77767600;
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+
+.macversion:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.macversion img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+a button {
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+}
+a button:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: #333;
+    cursor: pointer;
+}

@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpaperaccess.com/full/4459607.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 17px 59px 11px rgba(65, 65, 66, 0.62);
+    -moz-box-shadow: 0px 17px 59px 11px rgba(40, 40, 41, 0.62);
+    box-shadow: 0px 17px 59px 11px rgba(44, 44, 44, 0.62);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 8px 0px;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+}
+.navbar li {
+    margin: 0 5px;
+    list-style: none;
+}
+
+.navbar li:not(:last-child)::after {
+    content: '';
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #b6b5b5;
+    margin: 5px 5px 0px 20px;
+    vertical-align: middle;
+}
+
+.navbar a:hover {
+    color: white;
+    box-shadow: 0px 0px 100px 26px #b6b5b56b;
+    -webkit-box-shadow: 0px 0px 100px 26px #b6b5b5a2;
+    -moz-box-shadow: 0px 0px 100px 26px #b6b5b5;
+    text-decoration: underline white;
+}
+
+.navbar a {
+    color: #b6b5b5;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 100px 0px 0px 0px; /* Ajuste a margem conforme necessário */
+}
+
+.content h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    font-size: 70px;
+    color: #333;
+}
+
+.content p {
+    font-size: 18px;
+    color: #555;
+}
+.titulo {
+    height: 180px;
+    width: 600px;
+    background-color: #333;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 260px;
+    transition: transform 0.8s;
+}
+
+.titulo.topo {
+    transform: scale(1.7);
+}
+
+.titulo .banner {
+    text-align: center;
+    margin: 40px 0px 0px 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    width: 22ch;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s, blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+.sub {
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: #777676;
+}
+.conteudo1 {
+    height: 410px;
+    width: 400px;
+    flex-basis: 300px;
+    margin: 0px 40px 80px;
+    border: 1px solid #777676b2;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+}
+.conteudo1:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: #333;
+}
+
+.conteudo1 .imgCo1 {
+    height: auto;
+    width: 100%;
+}
+main {
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sobreOS {
+    margin: 60px;
+    text-align: center;
+    font-size: 300px;
+    text-decoration-line: underline;
+}
+.usuario {
+    display: flex;
+    margin: 20px 0px;
+}
+.imgusuario {
+    height: 35px;
+    width: 50px;
+    margin-left: 10px;
+}
+.usuariodiv {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+.mini-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px 10px 10px 20px;
+}
+
+.mini-button {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.icon {
+    margin-right: 4px;
+}
+
+.count {
+    font-weight: bold;
+}
+
+.label {
+    color: #777;
+    text-transform: uppercase;
+}
+
+.mini-button:last-child {
+    margin-right: 0;
+    margin-left: auto;
+}
+.link {
+    text-decoration: none;
+}
+.link p:hover {
+    color: rgb(93, 219, 219);
+}
+#myForm {
+    width: 600px;
+    height: 37px;
+    margin: 80px auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: rgb(88, 88, 88);
+}
+input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-self: flex-atart;
+    border-radius: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+input[type='submit'] {
+    background-color: #4caf50;
+    margin-left: 30px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: flex-end;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+input[type='submit']:hover {
+    background-color: #45a049;
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
+}
+#btnTopo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    border-radius: 50%;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+#btnTopo:hover {
+    background-color: #45a049;
+}
+.contmac {
+    height: 169px;
+    width: 300px;
+    flex-basis: 300px;
+    margin: 50px 20px 80px;
+    border: 1px solid #777676b2;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+}
+.contmac:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: #333;
+}
+.macversion img {
+    height: auto;
+    width: 100%;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover {
+    color: #000;
+}
